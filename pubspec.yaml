@@ -1,0 +1,26 @@
+name: spike_transistor_sdk
+description: "Spike for transistor sdk geolocation"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: 3.2.3
+  flutter: 3.16.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: 1.0.6
+  flutter_background_geolocation: 4.14.0
+  battery_info: 1.1.1
+  firebase_core:  2.26.0
+  firebase_performance: 0.9.3+16
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: 3.0.1
+
+flutter:
+  uses-material-design: true
